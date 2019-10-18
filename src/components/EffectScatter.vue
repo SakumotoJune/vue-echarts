@@ -8,7 +8,7 @@ export default {
   data() {
     return {
       option: {
-        backgroundColor: '#05274C',
+        backgroundColor: '#364366',
         grid: {
           width: '940px',
           height: '500px',
@@ -131,7 +131,7 @@ export default {
                 value: ['较低','较低'],
                 symbolSize: 30,
                 itemStyle: {
-                  color: 'white'
+                  color: '#ffbc50'
                 },
                 label: {
                   show: true,
@@ -176,7 +176,7 @@ export default {
                 value: ['很低','最低'],
                 symbolSize: 10,
                 itemStyle: {
-                  color: 'white'
+                  color: '#ff8080'
                 },
                 label: {
                   show: true,
@@ -266,7 +266,7 @@ export default {
                 value: ['最高', '最高'],
                 symbolSize: 90,
                 itemStyle: {
-                  color: 'white'
+                  color: '#4da6ff'
                 },
                 label: {
                   show: true,
@@ -311,7 +311,7 @@ export default {
                 value: ['较高','中等'],
                 symbolSize: 70,
                 itemStyle: {
-                  color: 'white'
+                  color: '#8a72ff'
                 },
                 label: {
                   show: true,

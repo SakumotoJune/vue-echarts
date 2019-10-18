@@ -2,8 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import PIE from '@/components/PIE';
-import ScatterTest from '@/page/ScatterTest';
+// import ScatterTest from '@/page/ScatterTest';
 import EffectScatter from '@/components/EffectScatter';
+import Scatter from '@/components/Scatter';
 Vue.use(Router)
 
 export default new Router({
@@ -19,7 +20,7 @@ export default new Router({
     },{
       path:'/scatter',
       name: 'Scatter',
-      component: ScatterTest
+      component: Scatter
     },{
       path:'/effect',
       name: 'EffecrScatter',
