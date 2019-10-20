@@ -13,10 +13,10 @@ export default {
           grid: {
               left: '20%'
           },
-          color: ['#2AC9FD', '#76FBC0', '#35C96E', '#FCC708', '#48B188', '#5957C2', '#4A5D73'],
+          color: ['#5796eb', '#76FBC0', '#35C96E', '#FCC708', '#48B188', '#5957C2', '#4A5D73'],
           series: [
               {
-                  color: ['#2AC9FD', '#76FBC0', '#35C96E', '#FCC708', '#48B188', '#5957C2'],
+                  color: ['#5796eb', '#2affaf', '#ffd16a', '#ff9a84', '#b88aff', '#7a70ec'],
                   type: 'pie',
                   radius: ['65', '100'],
                   hoverAnimation: false,
@@ -76,29 +76,34 @@ export default {
                       // }
                   },
                   data: [{
-                      name: '名称2',
-                      value: '272',
+                      name: '1',
+                      value: '35',
+                      itemStyle: {
+                          // color: "transparent",
+                          opacity: 0
+                      }
                   }, {
-                      name: '名称3',
-                      value: '292',
+                      name: '2',
+                      value: '20',
                   }, {
-                      name: '名称4',
-                      value: '120',
+                      name: '3',
+                      value: '20',
                   }, {
-                      name: '名称5',
-                      value: '42',
+                      name: '4',
+                      value: '15',
                   }, {
-                      name: '名称6',
-                      value: '88',
+                      name: '5',
+                      value: '5',
                   }, {
-                      name: '名称7',
-                      value: '92',
+                      name: '6',
+                      value: '5',
                   }],
               },
               {
                   type: 'pie',
-                  radius: ['110', '111'],
+                  radius: ['100', '111'],
                   data: [100],
+                  color:['rgba(0,23,11,0.3)'],
                   hoverAnimation: false,
                   label: {
                       show: false
@@ -107,7 +112,8 @@ export default {
               {
                   type: 'pie',
                   hoverAnimation: false,
-                  radius: ['50', '51'],
+                  radius: ['50', '65'],
+                  color:['rgba(0,23,11,0.3)'],
                   data: [100],
                   label: {
                       show: false
@@ -117,7 +123,7 @@ export default {
                   type: 'pie',
                   hoverAnimation: false,
                   radius: ['50','111'],
-                  // color: ['#2AC9FD', '#76FBC0', '#35C96E', '#FCC708', '#48B188', '#5957C2'],
+                //   color: ['#2AC9FD'],
                   label: {
                       normal: {
                           show: false
@@ -125,42 +131,18 @@ export default {
                   },
                   data: [{
                       name: '名称2',
-                      value: '272',
+                      value: '35',
                       itemStyle: {
-                          shadowBlur: 10,
+                          shadowBlur: 15,
                           shadowColor: 'rgba(0, 0, 0, 0.5)',
                           // opacity: 0
                       }
 
                   }, {
                       name: '名称3',
-                      value: '292',
+                      value: '65',
                       itemStyle: {
                           // color: "transparent",
-                          opacity: 0
-                      }
-                  }, {
-                      name: '名称4',
-                      value: '120',
-                      itemStyle: {
-                          opacity: 0
-                      }
-                  }, {
-                      name: '名称5',
-                      value: '42',
-                      itemStyle: {
-                          opacity: 0
-                      }
-                  }, {
-                      name: '名称6',
-                      value: '88',
-                      itemStyle: {
-                          opacity: 0
-                      }
-                  }, {
-                      name: '名称7',
-                      value: '92',
-                      itemStyle: {
                           opacity: 0
                       }
                   }]
